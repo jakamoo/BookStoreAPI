@@ -51,8 +51,6 @@ This project is a RESTful API for an online bookstore, implemented using Java an
 - Provides security measures: Passwords are securely hashed, and only authenticated users can place orders. Admin operations require admin privileges.
 - Integrates with a database using Spring Data JPA (PostgreSQL).
 - Includes basic error handling (e.g., Book not found, Insufficient stock, Unauthorized user, Minimum Price For Order).
-
-## Bonus Features
 - Pagination for the `GET /books` endpoint.
 - Swagger UI integration.
 - Simple rate-limiting mechanism to prevent abuse.
